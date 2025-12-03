@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visit Burundi</title>
+  <link rel="stylesheet" href="../css/pages.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="../js/pages.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <button class="back-btn" >
+      <a href="../index.html" class="cta-button">
+      Retour aux destinations
+      </a>
+    </button>
+
+    <div class="header-title">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon-lg" fill="none" stroke="white" stroke-width="2" viewBox="0 0 24 24">
+        <path d="M12 21s-6-4.35-6-10a6 6 0 0112 0c0 5.65-6 10-6 10z"/>
+        <circle cx="12" cy="11" r="2"/>
+      </svg>
+      <h1 id="country-name"></h1>
+    </div>
+  </header>
+
+  <!-- HERO IMAGE -->
+  <section class="hero">
+    <img id="country-image" src="https://ecoadventuresafaris.com/wp-content/uploads/2021/10/Burundi-1.jpg" alt="Pays" />
+    <div class="overlay"></div>
+  </section>
+
+  <main class="container">
+
+    <!-- Description -->
+    <section>
+      <h2 class="section-title">Découvrez <span id="country-name-2"></span></h2>
+      <p id="country-description" class="text"></p>
+    </section>
+
+    <!-- Highlights -->
+    <section>
+      <h3 class="section-title">Points forts de la destination</h3>
+      <div id="highlights" class="badges"></div>
+    </section>
+
+    <!-- Activities -->
+    <section>
+      <h3 class="section-title">Activités & Expériences</h3>
+      <div id="activities" class="grid"></div>
+    </section>
+
+    <!-- Travel Info -->
+    <section>
+      <h3 class="section-title">Informations pratiques</h3>
+      <div id="travel-info" class="info-grid"></div>
+    </section>
+
+    <!-- Gallery -->
+    <section>
+      <h3 class="section-title">Galerie photos</h3>
+      <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1710115528580-a3075438732e" alt="Culture" />
+        <img src="https://images.unsplash.com/photo-1665332561290-cc6757172890" alt="Cuisine" />
+        <img src="https://images.unsplash.com/photo-1588349243120-7e7efa500bc4" alt="Hébergement" />
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <h3>Prêt pour l'aventure ?</h3>
+      <p>Contactez-nous pour organiser votre voyage sur mesure au <span id="country-name-3"></span>.</p>
+
+      <div class="cta-btns">
+        <button class="btn-white">Demander un devis</button>
+        <button class="btn-outline">Télécharger la brochure</button>
+      </div>
+    </section>
+
+  </main>
+<script src="../js/pages.js"></script>
+
+</body>
+</html>
