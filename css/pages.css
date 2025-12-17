@@ -1,48 +1,37 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #fff;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: beige;
 }
 
-.header {
-  padding: 30px;
-  color: white;
-  background: linear-gradient(to right, #16a34a, #2563eb);
-}
-
-.back-btn {
-  background:;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  margin-bottom: 20px;
-  transform: transform: scale(1.05);
-}
-
-.header-title {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.icon-lg {
-  width: 32px;
-  height: 32px;
-}
-
-.hero {
+.hero1 {
+ 
   position: relative;
-  height: 400px;
-  overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(204, 214, 249);
+    margin-top: 40px;
+    overflow: hidden;
+
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
-.hero img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.hero1::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    filter: brightness(0.6);
 }
-
+.hero-burundi{
+   background: url('https://augustinetours.com/wp-content/uploads/2015/02/Karera-waterfalls-Burundi-Augustine-Tours-.jpg') center/cover ;
+}
+.hero
 .overlay {
   position: absolute;
   inset: 0;
@@ -85,7 +74,6 @@ body {
 }
 
 .card {
-  padding: 20px;
   border-radius: 12px;
   border: 1px solid #ddd;
   transition: box-shadow 0.2s;
@@ -107,7 +95,7 @@ body {
 }
 
 .info-grid {
-  display: grid;
+  display: fllex;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   border: 1px solid #ddd;
@@ -169,4 +157,38 @@ body {
   color: white;
   border-radius: 8px;
   cursor: pointer;
+}
+.activities {
+  padding: 60px 10%;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+ background:100% linear-gradient(90deg, #059669 0%, #0891b2 50%, #2563eb 100%);
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover; /* très important */
+}
+.visit-card{
+  position: bottom;
+  color: white;
 }
