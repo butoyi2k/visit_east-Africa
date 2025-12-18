@@ -1,7 +1,9 @@
+
 body {
   margin: 0;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: beige;
+  overscroll-behavior: contain;
 }
 
 .hero1 {
@@ -15,7 +17,7 @@ body {
     color: rgb(204, 214, 249);
     margin-top: 40px;
     overflow: hidden;
-
+overscroll-behavior-y: none ;
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
