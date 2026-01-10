@@ -35,6 +35,12 @@ background: linear-gradient(90deg, #059669 0%, #0891b2 50%, #2563eb 100%);
 .destinations-header h2::before{
     content: '📍';
 }
+#form-card{
+    height: 425px;
+    padding-top: 10px ;
+    cursor: pointer;
+    border-radius: 10px solid #000;
+}
 #footer-container{
     position: absolute;
     color: black;
